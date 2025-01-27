@@ -1,1 +1,3 @@
-# flutter-super-app
+# super_app
+
+A new Flutter project.
