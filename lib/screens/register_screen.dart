@@ -20,7 +20,7 @@ class _RegisterPageState extends State<RegisterPage> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Page 1', style: TextStyle(fontFamily: 'Kanit')),
-        backgroundColor: Colors.pink[200],
+        backgroundColor: Color(0xFFF0D9F6),
         centerTitle: false,
       ),
       body: SingleChildScrollView( // Makes the content scrollable
@@ -169,6 +169,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   keyboardType: TextInputType.datetime,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
+                    prefixIcon: Icon(Icons.calendar_today),
                     hintText: 'dd/mm/yyyy',
                     hintStyle: TextStyle(fontFamily: 'Kanit'),
                   ),
